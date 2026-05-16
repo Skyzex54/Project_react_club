@@ -1,2 +1,11 @@
 npm create vite@latest Site_web_club
 npm run dev
+
+--change the main bransh
+git branch -M main
+--pull
+git pull origin main
+--commit
+git commit -m "message"
+--push
+git push origin main
