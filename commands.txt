@@ -9,3 +9,7 @@ git pull origin main
 git commit -m "message"
 --push
 git push origin main
+--login
+git config --global user.email "yourname@example.com"
+--username 
+git config --global user.name "sal3os"
