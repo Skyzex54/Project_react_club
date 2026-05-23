@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header'
 import { useState } from 'react'
+import Navbar from './Components/Navbar'
 function App() {
   const [count,setCount] = useState(0)
   const _3indama_9ala_aitouna = [
@@ -13,8 +14,9 @@ function App() {
   return (
     <>
     <Header title = "A9wal Aitouna"/>
-    {_3indama_9ala_aitouna.map((item,index) => (<h2 key = {index}>{item.title}</h2>))}
-    <button onClick ={() => setCount(count + 1)}>wrk chhal mn mra 7lmti biha {count}</button>
+    <Navbar sahbk={_3indama_9ala_aitouna}/>
+    <footer className='footer'><button  className = "khtna" onClick ={() => setCount(count + 1)}>wrk chhal mn mra 7lmti biha {count}</button></footer>
+    
     </>
   )
 }
