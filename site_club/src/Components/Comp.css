@@ -1,10 +1,11 @@
-.Header {
-    margin: 0 auto;
-    padding : 10px;
-    text-align : center;
-}
+
 .flex {
     display : flex;
-    gap : 85px;
-    justify-content: center;
+    gap : 50px;
+    justify-content: right;
+    padding-right: 25%;
+}
+.Nav-items {
+    text-decoration: none;
+    display: inline-block;
 }
