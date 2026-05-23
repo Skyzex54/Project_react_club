@@ -1,8 +1,8 @@
 import './Comp.css'
-const Navbar = ({sahbk}) => {
+const Navbar = ({navbarr}) => {
   return (
     <div className ="flex">
-       {sahbk.map((item,index) => (<h2 key = {index}>{item.title}</h2>))}
+       {navbarr.map((item,index) => <h3 key = {index} > <a href = "#"  className="Nav-items">{item.title}</a> </h3>)}
     </div>
   )
 }
