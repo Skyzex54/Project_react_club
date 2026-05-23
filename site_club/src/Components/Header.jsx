@@ -1,7 +1,9 @@
+import './Comp.css'
+
 const Header = ({title}) => {
   return (
-    <div>
-        <h1>{title}</h1>
+    <div className ="Header">
+        <h1 >{title}</h1>
     </div>
   )
 }
