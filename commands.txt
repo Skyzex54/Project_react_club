@@ -15,3 +15,5 @@ git config --global user.email "yourname@example.com"
 git config --global user.name "sal3os"
 --create a branch
 git switch -c name
+-- merge branch
+git merge name
