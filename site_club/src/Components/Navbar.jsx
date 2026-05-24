@@ -1,8 +1,8 @@
 import './Comp.css'
 const Navbar = ({navbarr}) => {
   return (
-    <div className ="flex">
-       {navbarr.map((item,index) => <h3 key = {index} > <a href = "#"  className="Nav-items">{item.title}</a> </h3>)}
+    <div className ="flex justify-end gap-15 pr-45 bg-emerald-300 p-2 shadow-md " >
+       {navbarr.map((item,index) => <h3 key = {index} > <a href = "#" className="text-white">{item.title}</a> </h3>)}
     </div>
   )
 }
