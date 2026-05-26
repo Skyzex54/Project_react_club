@@ -1,18 +1,26 @@
 import './App.css'
 import Navbar from './Components/Navbar'
-export const NavbarItems = [
-  { title: 'Menu' },
-  { title: 'About' },
-  { title: 'Members' },
-  { title: 'Events' },
-]
-
+import { Home, About, Members, Events } from './pages'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count,setCount] = useState(0)
+  const NavbarItems = [
+    { title : "Menu", path: "/" },
+    { title : "About", path: "/about" },
+    { title : "Members", path: "/members" },
+    { title : "Events", path: "/events" },
+  ]
   return (
     <>
-      <Navbar navbarr={NavbarItems} />
+    <Router>    
+      <Navbar navbarr={NavbarItems}/>
+      <Routes>
+        <Route path="/" element={<Home /> } />
+        <Route path="/about" element={<About /> } />
+        <Route path="/members" element={<Members /> } />
+        <Route path="/events" element={<Events /> } />
+      </Routes>
+    </Router>
     </>
   )
 }
