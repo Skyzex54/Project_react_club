@@ -8,16 +8,11 @@ export const NavbarItems = [
 ]
 
 function App() {
-  const [count,setCount] = useState(0)
-  const NavbarItems = [
-    { title : "Menu" },
-    { title : "About" },
-    { title : "Members" },
-    { title : "Events" },
-  ]
+  const [count, setCount] = useState(0)
+
   return (
     <>
-    <Navbar navbarr={NavbarItems}/>
+      <Navbar navbarr={NavbarItems} />
     </>
   )
 }
