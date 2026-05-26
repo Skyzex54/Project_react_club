@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import { NavbarItems } from '../App.jsx'
+import Navbar from '../App.jsx'
 const About = () => {
+
+
   return (
     <div>
-      <Navbar navbarr={NavbarItems}/>
+      <Navbar navbarr={Navbar}/>
     </div>
   )
 }
