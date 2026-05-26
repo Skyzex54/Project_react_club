@@ -1,4 +1,5 @@
 import './Comp.css'
+import { Link } from 'react-router-dom'
 import Ai_dev_favicom from "../assets/favicon.ico"
 const Navbar = ({navbarr}) => {
   return (
@@ -8,9 +9,9 @@ const Navbar = ({navbarr}) => {
       <div className="ml-auto flex items-center gap-15 pr-45">
         {navbarr.map((item, index) => (
           <h3 key={index}>
-            <a href="#" className="text-black transition-colors duration-300 h-full hover:bg-gray-300/70 py-3 px-1">
-              {item.title}
-            </a>
+        <Link to={item.path} className="text-black hover:bg-gray-300 rounded-xl py-1 px-3">
+        {item.title}
+          </Link> 
           </h3>
         ))}
       </div>
