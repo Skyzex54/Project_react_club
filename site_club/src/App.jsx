@@ -2,14 +2,15 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import { Home, About, Members, Events } from './pages'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-function App() {
-  const [count,setCount] = useState(0)
-  const NavbarItems = [
+
+export const NavbarItems = [
     { title : "Menu", path: "/" },
     { title : "About", path: "/about" },
     { title : "Members", path: "/members" },
     { title : "Events", path: "/events" },
   ]
+function App() {
+
   return (
     <>
     <Router>    
