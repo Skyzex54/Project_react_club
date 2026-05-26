@@ -1,20 +1,23 @@
 import './App.css'
 import Navbar from './Components/Navbar'
+export const NavbarItems = [
+  { title: 'Menu' },
+  { title: 'About' },
+  { title: 'Members' },
+  { title: 'Events' },
+]
 
 function App() {
+  const [count,setCount] = useState(0)
   const NavbarItems = [
     { title : "Menu" },
     { title : "About" },
     { title : "Members" },
     { title : "Events" },
   ]
-  
-
   return (
     <>
     <Navbar navbarr={NavbarItems}/>
-    <title>CLUB DEV&AI</title>
-    <h1 className='text-center font-arial text-blue-500'>A propos de nous</h1>
     </>
   )
 }
