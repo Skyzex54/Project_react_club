@@ -1,18 +1,19 @@
 import './App.css'
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
-import About from './Components/About'
+export const NavbarItems = [
+  { title: 'Menu' },
+  { title: 'About' },
+  { title: 'Members' },
+  { title: 'Events' },
+]
+
 function App() {
-  const [count,setCount] = useState(0)
- export const NavbarItems = [
-    { title : "Menu" },
-    { title : "About" },
-    { title : "Members" },
-    { title : "Events" },
-  ]
+  const [count, setCount] = useState(0)
+
   return (
     <>
-    <Navbar navbarr={NavbarItems}/>
+      <Navbar navbarr={NavbarItems} />
     </>
   )
 }
