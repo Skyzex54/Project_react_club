@@ -6,11 +6,5 @@ import About from './Components/About.jsx'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path= "/home" element ={<About />}/>
-    </Routes>
-  </BrowserRouter>,
   </StrictMode>,
 )
