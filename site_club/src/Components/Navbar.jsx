@@ -9,13 +9,17 @@ const Navbar = ({navbarr , onHomeToggle}) => {
       <div className="ml-auto flex items-center gap-15 pr-45">
         {navbarr.map((item, index) => (
           <h3 key={index}>
-        <Link onClick={() => {
-          if (item.title ==="Menu") {
-            onHomeToggle
-          } 
-        }} to={item.path} className="text-black hover:bg-gray-300 rounded-sm py-1 px-3">
+        <Link
+          onClick={() => {
+            if (item.title === "Menu") {
+              onHomeToggle()
+            }
+          }}
+          to={item.path}
+          className="text-black hover:bg-gray-300 rounded-sm py-1 px-3"
+        >
         {item.title}
-          </Link> 
+          </Link>
           </h3>
         ))}
       </div>
