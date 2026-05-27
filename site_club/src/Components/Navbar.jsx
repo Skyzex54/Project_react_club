@@ -15,8 +15,12 @@ const Navbar = ({navbarr}) => {
           </h3>
         ))}
       </div>
-      <button className='inline-flex h-9 w-17.75 items-center justify-center px-1.5 rounded-sm border py-0.5 mr-1 border-gray-400 shrink-0 '>Login</button>
-      <button className='inline-flex h-9 w-17.75 items-center justify-center rounded-sm border border-emerald-400 bg-emerald-400 text-xs leading-none text-white shrink-0' >Register</button>
+       <Link to="/Login" className='inline-flex w-17.75 h-9 items-center justify-center px-1.5 rounded-sm border py-0.5 mr-1 border-gray-400 shrink-0'>
+        Login
+      </Link>
+      <Link to="/Register" className='inline-flex w-17.75 h-9 items-center justify-center rounded-sm border border-emerald-400 bg-emerald-400 text-xs leading-none text-white shrink-0'>
+        Register
+      </Link>
     </div>
   )
 }
