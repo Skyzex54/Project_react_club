@@ -1,5 +1,6 @@
 import React from 'react'
 import Home_Image from '../assets/home_photo.jpeg'
+import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
@@ -34,8 +35,8 @@ function Home() {
           <p className='text-sm bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent '>Join us in exploring the future of artificial intelligence and machine learning</p>
       </div>
        <div className ='inline-flex col-start-2 justify-center'>
-        <button className='px-10 rounded-sm border-b-emerald-500 mt-8 mb-8 mr-4 bg-linear-to-r to-emerald-200 from-emerald-100  '>Register</button>
-        <button className=' bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent px-10 rounded-sm border border-emerald-100/50 mt-8 mb-8 mr-2 '>Explore Members</button>
+        <Link to="/Register" className='px-10 rounded-sm border-b-emerald-500 mt-8 mb-8 mr-4 bg-linear-to-r to-emerald-200 from-emerald-100  '>Register</Link>
+        <Link to="/members" className=' bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent px-10 rounded-sm border border-emerald-100/50 mt-8 mb-8 mr-2 '>Explore Members</Link>
       </div>
     </div>
     </>
