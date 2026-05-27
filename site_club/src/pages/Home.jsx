@@ -1,14 +1,14 @@
 import React from 'react'
 import Home_Image from '../assets/home_photo.jpeg'
 import { Link } from 'react-router-dom'
-function Home() {
+function Home({HomeOpen}) {
   return (
     <>
     <div className='relative w-full h-[80vh] overflow-hidden  '>
       <img src= {Home_Image} alt='AI DEV PHOTO' className="w-full h-full object-cover" ></img>
       <div className="absolute inset-0 bg-emerald-600/30"></div>
       <div className="absolute inset-0 z-30 grid items-center justify-center grid-cols-2 grid-rows-2 px-15">
-        <h1 className="text-white text-4xl font-bold col-start-1 row-start-1">Welcome to AI Dev Community</h1>
+        <h1  className={"text-white text-4xl font-bold col-start-1 row-start-1 transform transition-all duration-500" + (HomeOpen ? 'opacity-100 translate-x-24' : 'opacity-0 -translate-x-8')} >Welcome to AI Dev Community</h1>
       </div>
       
     </div>
