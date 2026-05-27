@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import { Home, About, Members, Events } from './pages'
+import { Home, About, Members, Events , Login , Register } from './pages'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 export const NavbarItems = [
@@ -25,6 +25,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/members" element={<Members />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/Register" element={<Register />} />
           </Routes>
         </main>
 
