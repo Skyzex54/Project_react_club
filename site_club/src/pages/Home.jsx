@@ -11,8 +11,28 @@ function Home() {
       </div>
       
     </div>
-    <div className='h-[12vh] grid grid-rows-2 bg-emerald-100'><p className='row-start-1 text-center'>Our Objective</p></div>
-    <div className='h-[12vh] grid grid-rows-2 bg-linear-to-r from-emerald-600 to-emerald-300'><p className='row-start-1 text-center'>Our Objective</p></div>
+    <div className='grid min-h-[12vh] grid-rows-[auto_1fr] bg-emerald-100'>
+      <p className='row-start-1 text-center font-bold p-2'>Our Objective</p>
+      <div className='row-start-2 grid grid-cols-3 p-2'>
+        <div className='col-start-1 '>
+          <p className='text-center font-bold'>Regular Events</p>
+          <p>hhhhhhhhhh</p>
+        </div>
+        <div className='col-start-2'>
+          <p className='text-center font-bold'>Vibrant Community</p>
+        </div>
+        <div className='col-start-3'>
+          <p className='text-center font-bold'>Learn & Grow</p>
+        </div>
+      </div>
+    </div>
+    <div className='h-auto grid grid-cols-2 bg-linear-to-r from-emerald-600 to-emerald-300'>
+      <div className ='inline-flex col-start-2 justify-center'>
+        <button className='px-2'>press</button>
+        <button className='px-2'>press2</button>
+      </div>
+      <p className='row-start-1 col-start-1 text-center'>hhhhh</p>
+    </div>
     </>
     
   )
