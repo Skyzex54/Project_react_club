@@ -4,8 +4,8 @@ import Ai_dev_favicom from "../assets/favicon.ico"
 const Navbar = ({navbarr}) => {
   return (
     <div className="flex items-center w-full bg-white-200 p-2 shadow-md opacity-90 h-20  ">
-      <img src={Ai_dev_favicom} alt="AI Dev favicon" className="h-8 w-8" />
-      <p className='px-1 font-bold text-cyan-300'>AI DEV COMMUNITY</p>
+      <img src={Ai_dev_favicom} alt="AI Dev favicon" className="h-10 w-10" />
+      <p className='px-1 font-bold text-cyan-300 text-2xl'>AI DEV COMMUNITY</p>
       <div className="ml-auto flex items-center gap-15 pr-45">
         {navbarr.map((item, index) => (
           <h3 key={index}>
