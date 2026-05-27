@@ -29,12 +29,13 @@ function Home() {
       </div>
     </div>
     <div className='min-h-[12vh] grid grid-cols-2 bg-linear-to-r from-emerald-600 to-emerald-300'>
-      <div className=' col-start-1  flex items-center justify-center'>
-          <p>Become part of our growing community of AI and tech enthusiasts</p>
+      <div className=' col-start-1  flex  flex-col items-center justify-center '>
+          <p className='bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent font-bold'>Become part of our growing community of AI and tech enthusiasts</p>
+          <p className='text-sm bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent '>Join us in exploring the future of artificial intelligence and machine learning</p>
       </div>
        <div className ='inline-flex col-start-2 justify-center'>
-        <button className='px-10 rounded-sm border mt-8 mb-8 mr-4 '>press</button>
-        <button className='px-10 rounded-sm border mt-8 mb-8 mr-2 '>press2</button>
+        <button className='px-10 rounded-sm border-b-emerald-500 mt-8 mb-8 mr-4 bg-linear-to-r to-emerald-200 from-emerald-100  '>Register</button>
+        <button className=' bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent px-10 rounded-sm border border-emerald-100/50 mt-8 mb-8 mr-2 '>Explore Members</button>
       </div>
     </div>
     </>
