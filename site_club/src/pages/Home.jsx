@@ -12,26 +12,30 @@ function Home() {
       
     </div>
     <div className='grid min-h-[12vh] grid-rows-[auto_1fr] bg-emerald-100'>
-      <p className='row-start-1 text-center font-bold p-2'>Our Objective</p>
+      <p className='row-start-1 text-center font-bold p-2 bg-linear-to-r from-emerald-700 to-emerald-900 bg-clip-text text-transparent'>Our Objective</p>
       <div className='row-start-2 grid grid-cols-3 p-2'>
         <div className='col-start-1 '>
-          <p className='text-center font-bold'>Regular Events</p>
-          <p>hhhhhhhhhh</p>
+          <p className='text-center font-bold bg-linear-to-r from-emerald-600 to-emerald-300 bg-clip-text text-transparent'>Regular Events</p>
+          <p className='text-center bg-linear-to-r from-black to-emerald-300 bg-clip-text text-transparent '>Weekly workshops, hackathons, and tech talks</p>
         </div>
         <div className='col-start-2'>
-          <p className='text-center font-bold'>Vibrant Community</p>
+          <p className='text-center font-bold bg-linear-to-r from-emerald-600 to-emerald-300 bg-clip-text text-transparent'>Vibrant Community</p>
+          <p className='text-center bg-linear-to-r from-black to-emerald-300 bg-clip-text text-transparent' >Connect with passionate developers and innovators</p>
         </div>
         <div className='col-start-3'>
-          <p className='text-center font-bold'>Learn & Grow</p>
+          <p className='text-center font-bold bg-linear-to-r from-emerald-600 to-emerald-300 bg-clip-text text-transparent'>Learn & Grow</p>
+          <p className='text-center bg-linear-to-r from-black to-emerald-300 bg-clip-text text-transparent'>Skill up with hands-on projects and mentorship</p>
         </div>
       </div>
     </div>
-    <div className='h-auto grid grid-cols-2 bg-linear-to-r from-emerald-600 to-emerald-300'>
-      <div className ='inline-flex col-start-2 justify-center'>
-        <button className='px-2'>press</button>
-        <button className='px-2'>press2</button>
+    <div className='min-h-[12vh] grid grid-cols-2 bg-linear-to-r from-emerald-600 to-emerald-300'>
+      <div className=' col-start-1  flex items-center justify-center'>
+          <p>Become part of our growing community of AI and tech enthusiasts</p>
       </div>
-      <p className='row-start-1 col-start-1 text-center'>hhhhh</p>
+       <div className ='inline-flex col-start-2 justify-center'>
+        <button className='px-10 rounded-sm border mt-8 mb-8 mr-4 '>press</button>
+        <button className='px-10 rounded-sm border mt-8 mb-8 mr-2 '>press2</button>
+      </div>
     </div>
     </>
     
