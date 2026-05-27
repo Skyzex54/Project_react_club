@@ -49,15 +49,19 @@ function Home() {
       </div>
     </div>
     {/* EVENTS */}
-    <div className='min-h-[25vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3'> 
-        
-        <Event_card src={gum1} alt={"Gumball ajmi"} className='col-start-1' />
-        <div className='col-start-2 '>
-          <p className='text-center font-bold'>Last Events</p>
-        <Event_card src={gum2} alt={"Gumball ajmi tani"} />
+    <div className='min-h-[30vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3 grid-rows-[auto_1fr]'>
+      <div className='row-start-1 col-start-2'>
+        <p className='text-center font-bold'>Last Events</p>
+      </div>
+        <div className='col-start-1 row-start-2 flex justify-center'>
+          <Event_card src={gum1} alt={"Gumball ajmi"} className='h-full' />
         </div>
-        
-        <Event_card src={gum3} alt={"darwin ajmi "} className='col-start-3' />
+        <div className='col-start-2 row-start-2 flex justify-center '>
+        <Event_card src={gum2} alt={"Gumball ajmi tani"} className='h-full' />
+        </div>
+        <div className='col-start-3 row-start-2 flex justify-center'>
+            <Event_card src={gum3} alt={"darwin ajmi "} className='h-full' /> 
+        </div>
     </div>
     </>
     
