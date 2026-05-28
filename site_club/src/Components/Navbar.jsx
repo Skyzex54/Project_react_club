@@ -18,10 +18,10 @@ const Navbar = ({navbarr}) => {
           </h3>
         ))}
       </div>
-       <Link to="/Login" className='inline-flex w-17.75 h-9 items-center justify-center px-1.5 rounded-sm border py-0.5 mr-1 border-gray-400 shrink-0'>
+       <Link to="/Login" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center px-1.5 py-0.5 mr-1 shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-emerald-300 hover:bg-clip-text hover:text-transparent'>
         Login
       </Link>
-      <Link to="/Register" className='inline-flex w-17.75 h-9 items-center justify-center rounded-sm border border-emerald-400 bg-emerald-400 text-xs leading-none text-white shrink-0'>
+      <Link to="/Register" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center leading-none shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-emerald-300 hover:bg-clip-text hover:text-transparent'>
         Register
       </Link>
     </div>
