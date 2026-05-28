@@ -8,6 +8,9 @@ const About = () => {
     <div>
       <Navbar navbarr={Navbar}/>
     </div>
+    <div>
+      <p>nous</p>
+    </div>
   )
 }
 
