@@ -27,10 +27,10 @@ function About() {
         <div className="  border border-gray-400 basis-sm"><p className="font-sans"></p>Cutting-edge Tech<div><br/>Stay updated with the latest in AI and technology</div></div>
       </div>
       <div className="text-emerald-700">Our Story</div>
-      <div className=''>
-      <div className=''><p className='text-left'>Founded in 2020, AI Dev Community began as a small group of ambitious students gathering for weekly study sessions.<br/> Driven by a shared passion for artificial intelligence and machine learning, those early meetings quickly evolved. <br/>Today, we are a thriving community of hundreds of members, proudly standing as one of the leading tech hubs in the region.</p></div>
+      <div className='bg-gray-100'>
+      <div className='block'><p className='text-left'>Founded in 2020, AI Dev Community began as a small group of ambitious students gathering for weekly study sessions.<br/> Driven by a shared passion for artificial intelligence and machine learning, those early meetings quickly evolved. <br/>Today, we are a thriving community of hundreds of members, proudly standing as one of the leading tech hubs in the region.</p></div>
       <button className='bg-emerald-600 hover:bg-emerald-800 border rounded'>Learn more about us</button>
-      <div className=""><img src={Story} alt="story" className='w-140 h-100 justify-items-end rounded-2xl'/></div>
+      <div><img src={Story} alt="story" className='w-140 h-100 justify-items-end rounded-2xl justify-center'/></div>
       </div>
       </div>
       </div>
