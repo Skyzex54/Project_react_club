@@ -5,6 +5,7 @@ import gum1 from '../assets/gum1.jpg'
 import gum2 from '../assets/gum3.jpg'
 import gum3 from '../assets/dar2.jpg'
 import halland from '../assets/Halland.png'
+import jew from '../assets/Jews.png'
 import { Link } from 'react-router-dom'
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
         <p className='text-center font-bold'>Last Events</p>
       </div>
         <div className='col-start-1 row-start-2 flex justify-center'>
-          <Event_card src={gum1} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
+          <Event_card src={jew} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
         </div>
         <div className='col-start-2 row-start-2 flex justify-center '>
         <Event_card src={gum2} alt={"Gumball ajmi tani"} text={"Gumball_2"} className='h-full' />
