@@ -4,8 +4,8 @@ function About() {
     {/**/}
     <div className="flex flex-row border rounded border-gray-400 m bg border-collapse">
     <div className="  border border-gray-400 basis-sm">
-      <p  className="text-2xl font-sans  ">500+</p><div className="font-light m font-sans "><br/>
-      active members</div>
+      <p  className="text-2xl font-sans  ">500+</p><div className="font-light m font-sans ">
+        <br/>active members</div>
       </div>
     <div className="  border  border-gray-400 basis-sm"><p  className="text-2xl font-sans ">100+</p>
     <div className="font-light m font-sans "><br/>Events Hosted</div>
