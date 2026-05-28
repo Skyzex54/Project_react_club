@@ -18,6 +18,21 @@ function Home() {
         <h1  className="text-white text-4xl font-bold col-start-1 row-start-1" >Welcome to AI Dev Community</h1>
       </div>
     </div>
+     {/* EVENTS */}
+    <div className='min-h-[30vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3 grid-rows-[auto_1fr]'>
+      <div className='row-start-1 col-start-2'>
+        <p className='text-center font-bold'>Last Events</p>
+      </div>
+        <div className='col-start-1 row-start-2 flex justify-center'>
+          <Event_card src={gum1} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
+        </div>
+        <div className='col-start-2 row-start-2 flex justify-center '>
+        <Event_card src={gum2} alt={"Gumball ajmi tani"} text={"Gumball_2"} className='h-full' />
+        </div>
+        <div className='col-start-3 row-start-2 flex justify-center'>
+            <Event_card src={gum3} alt={"darwin ajmi "} text={"Gumball_3"}className='h-full' /> 
+        </div>
+    </div>
     {/* OBJECTIVES */}
     <div className='grid min-h-[12vh] grid-rows-[auto_1fr] bg-emerald-100'>
       <p className='row-start-1 text-center font-bold p-2 bg-linear-to-r from-emerald-700 to-emerald-900 bg-clip-text text-transparent'>Our Objective</p>
@@ -36,6 +51,7 @@ function Home() {
         </div>
       </div>
     </div>
+   
     {/* REGISTER SECTION */}
     <div className='min-h-[12vh] grid grid-cols-2 bg-linear-to-r from-emerald-600 to-emerald-300'>
       <div className=' col-start-1  flex  flex-col items-center justify-center '>
@@ -48,21 +64,7 @@ function Home() {
         <Link to="/members" className=' bg-linear-to-r from-white to-emerald-300 bg-clip-text text-transparent px-10 rounded-sm border border-emerald-100/50 mt-8 mb-8 mr-2 flex items-center transition delay-100 duration-300 hover:-translate-y-1 hover:scale-110 '>Explore Members</Link>
       </div>
     </div>
-    {/* EVENTS */}
-    <div className='min-h-[30vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3 grid-rows-[auto_1fr]'>
-      <div className='row-start-1 col-start-2'>
-        <p className='text-center font-bold'>Last Events</p>
-      </div>
-        <div className='col-start-1 row-start-2 flex justify-center'>
-          <Event_card src={gum1} alt={"Gumball ajmi"} className='h-full' />
-        </div>
-        <div className='col-start-2 row-start-2 flex justify-center '>
-        <Event_card src={gum2} alt={"Gumball ajmi tani"} className='h-full' />
-        </div>
-        <div className='col-start-3 row-start-2 flex justify-center'>
-            <Event_card src={gum3} alt={"darwin ajmi "} className='h-full' /> 
-        </div>
-    </div>
+    
     </>
     
   )
