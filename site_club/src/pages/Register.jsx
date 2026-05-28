@@ -1,10 +1,8 @@
-import React from 'react'
-
-const Register = () => {
+function Register() {
   return (
-    <div>
-      <p>Register</p>
-    </div>
+    <>
+      <div>REGISTER</div>
+    </>
   )
 }
 
