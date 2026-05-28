@@ -19,7 +19,7 @@ function Home() {
       </div>
     </div>
      {/* EVENTS */}
-    <div className='min-h-[30vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3 grid-rows-[auto_1fr]'>
+    <div className='min-h-[30vh] bg-linear-to-r from-white to-gray-300 grid grid-cols-3 grid-rows-[auto_auto]'>
       <div className='row-start-1 col-start-2'>
         <p className='text-center font-bold'>Last Events</p>
       </div>
