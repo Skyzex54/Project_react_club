@@ -9,10 +9,10 @@ function About() {
     <div className="  border border-gray-400 basis-sm"><p   className="text-2xl font-sans ">15+</p><div className="font-light m font-sans "><br/>Countries</div></div>
     </div>
     <div className="bg-gray-300 m flex">
-    <div className="text-left text-green-500 text-3xl font-arial flex-co">What Drives Us<div className="font-light text-gray-800 text-sm font-sans"><br/>The principles that guide everything we do in our community<div><br/>Our mission is to empower developers with AI knowledge and foster innovation in technology</div></div></div>
-    <div className="text-gray-700 font-sans">Innovation<div><br/>Encouraging creative thinking and cutting-edge solutions to real-world problems</div></div>
-    <div>Community<div><br/>Encouraging creative thinking and cutting-edge solutions to real-world problems</div></div>
-    <div>Excellence<div><br/>Striving for quality in everything we do, from events to education</div></div>
+    <div className="text-left text-green-500 text-3xl font-arial flex-co"><div>What Drives Us</div><div className="font-light text-gray-800 text-sm font-sans"><br/>The principles that guide everything we do in our community<div><br/>Our mission is to empower developers with AI knowledge and foster innovation in technology</div></div></div>
+    <div className="text-gray-700 font-sans"><div>Innovation</div>Innovation<div><br/>Encouraging creative thinking and cutting-edge solutions to real-world problems</div></div>
+    <div><div className='font-bold text-emerald-700 text-3xl'>Community</div><div><br/>Encouraging creative thinking and cutting-edge solutions to real-world problems</div></div>
+    <div><div>Excellence</div><div><br/>Striving for quality in everything we do, from events to education</div></div>
     </div>
     <div>
       <div>
@@ -26,9 +26,10 @@ function About() {
         <div className="  border border-gray-400 basis-sm"><p className="font-sans"></p>Mentorship Program<div><br/>Learn from experienced professionals in the industry</div></div>
         <div className="  border border-gray-400 basis-sm"><p className="font-sans"></p>Cutting-edge Tech<div><br/>Stay updated with the latest in AI and technology</div></div>
       </div>
-      <div className="text-emerald-700 inline-0 ">Our Story</div>
-      <div className='justify-items-end inline'>
-      <div className='text-left justify-start grid'><p>w db rj3at l2amyah ila jawariha<br/>w lila liya ya layla w kachani ya wissal w ya kachani ya wissal</p></div>
+      <div className="text-emerald-700">Our Story</div>
+      <div className=''>
+      <div className=''><p className='text-left'>Founded in 2020, AI Dev Community began as a small group of ambitious students gathering for weekly study sessions.<br/> Driven by a shared passion for artificial intelligence and machine learning, those early meetings quickly evolved. <br/>Today, we are a thriving community of hundreds of members, proudly standing as one of the leading tech hubs in the region.</p></div>
+      <button className='bg-emerald-600 hover:bg-emerald-800 border rounded'>Learn more about us</button>
       <div className=""><img src={Story} alt="story" className='w-140 h-100 justify-items-end rounded-2xl'/></div>
       </div>
       </div>
