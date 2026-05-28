@@ -1,4 +1,4 @@
-import Story from '../assets/Story.jpg'
+import Story from '../assets/Halland.png'
 function About() {
   return (<div>
     {/**/}
