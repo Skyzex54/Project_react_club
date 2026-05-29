@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MemberCard from "../Components/MemberCard";
 
 function Members() {
@@ -40,10 +41,10 @@ function Members() {
      />
    ))}
 
-   {/* Carte spéciale "Join Our Community" — même taille que les autres */}
+   {/* card lkhra*/}
    <div className="w-[260px] bg-cyan-50 border border-cyan-100 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
 
-     {/* Icône personne dans un cercle */}
+     {/* Icône dyal profil*/}
      <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-cyan-100 flex items-center justify-center ">
        <svg viewBox="0 0 24 24" className="h-10 w-10 text-teal-400" fill="none" stroke="currentColor" strokeWidth="1.5">
          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
@@ -59,10 +60,13 @@ function Members() {
        Be part of something bigger. Create, learn, and grow with us.
      </p>
 
-     {/* Bouton dyal register*/}
-     <button className="bg-teal-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-teal-600 transition-colors w-full">
+     {/* Bouton dyal register f chkel lien */}
+     <Link
+       to="/Register"
+       className="inline-block bg-teal-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-teal-600 transition-colors w-full"
+     >
        Register Now
-     </button>
+     </Link>
 
    </div>
  </div>
