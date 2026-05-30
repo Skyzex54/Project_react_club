@@ -42,7 +42,7 @@ function Members() {
    ))}
 
    {/* card lkhra*/}
-   <div className="w-[260px] bg-cyan-590 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-100">
+   <div className="w-65 bg-cyan-590 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-100">
 
      {/* Icône dyal profil*/}
      <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-cyan-100 flex items-center justify-center ">
@@ -56,7 +56,7 @@ function Members() {
      <h3 className="text-lg font-bold text-slate-800 mb-3">Join Our Community</h3>
 
      {/*description*/}
-     <p className="bg-gradient-to-br from-gray-400 to-black bg-clip-text text-transparent text-xs mb-6 leading-relaxed font-medium">
+     <p className="bg-linear-to-br from-gray-400 to-black bg-clip-text text-transparent text-xs mb-6 leading-relaxed font-medium">
        Be part of something bigger. Create, learn, and grow with us.
      </p>
 
