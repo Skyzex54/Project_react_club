@@ -1,8 +1,9 @@
 import React from 'react'
 import Costume_list from './Custom_listbox'
+
 const Forumulaire_Register = () => {
   return (
-    <div className=' bg-white h-auto p-10 border border-black rounded-2xl m-4 w-full max-w-2xl mx-auto'>
+    <div className=' bg-white h-auto p-10 border border-gray-600/20 shadow-md rounded-2xl m-4 w-full max-w-2xl mx-auto'>
       
       <label className="block text-sm font-semibold text-slate-700 mb-2">
           Full Name
