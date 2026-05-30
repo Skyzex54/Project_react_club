@@ -4,7 +4,7 @@ import Footer from './Components/Footer'
 import { Home, About, Members, Contact, Login, Register } from './pages'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 export const NavbarItems = [
-    { title : "Menu", path: "/" },
+    { title : "Home", path: "/" },
     { title : "About", path: "/about" },
     { title : "Members", path: "/members" },
     { title : "Contact", path: "/contact" },
