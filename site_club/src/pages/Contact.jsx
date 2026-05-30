@@ -3,7 +3,7 @@ import Formulaire from "../Components/formulaire_contact";
 function Contact() {
   return (
     
-    <div className="min-h-screen bg-gradient-to-br from-cyan-600 via-blue-500 to-sky-900 py-16 px-4">
+    <div className="min-h-screen bg-cyan-50 py-16 px-4">
  
       {/* titre o lteht */}
       <div className="text-center mb-10">
