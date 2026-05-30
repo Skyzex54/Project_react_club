@@ -11,7 +11,7 @@ function MemberCard({name,role,description,image}){
      
       return (
         // chkel dyal card
-        <div className="w-[260px] bg-white border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
+        <div className="w-[260px] bg-white border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-100">
      
           {/* chkel dyal tswira */}
           <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-slate-100 overflow-hidden border-4 border-white shadow">
@@ -30,10 +30,10 @@ function MemberCard({name,role,description,image}){
           <h3 className="text-lg font-bold text-slate-800 mb-1">{name}</h3>
      
           {/* role vert/teal */}
-          <p className="text-sm font-semibold text-teal-500 mb-3">{role}</p>
+          <p className="text-sm font-bold bg-linear-to-r from-gray-400 to-cyan-300 bg-clip-text text-transparent mb-3">{role}</p>
      
           {/* Description */}
-          <p className="text-gray-400 text-xs mb-6 leading-relaxed">{description}</p>
+          <p className="bg-gradient-to-br from-gray-400 to-black bg-clip-text text-transparent text-xs mb-6 leading-relaxed font-medium">{description}</p>
      
           {/* Icone dyal GitHub o LinkedIn */}
           <div className="flex gap-3 justify-center text-gray-400">
