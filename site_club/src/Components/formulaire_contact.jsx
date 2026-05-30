@@ -37,10 +37,10 @@ function Formulaire() {
         </label>
 
         {/* div dyal icone */}
-        <div className="flex items-center border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-teal-400 transition-colors">
+        <div className="flex items-center border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-cyan-400 transition-colors">
 
           {/* Icône dyal fullname */}
-          <svg viewBox="0 0 24 24" className="h-5 w-5 text-teal-400 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8">
+          <svg viewBox="0 0 24 24" className="h-5 w-5 text-cyan-400 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8">
             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
             <circle cx="12" cy="7" r="4" />
           </svg>
@@ -63,10 +63,10 @@ function Formulaire() {
           Email
         </label>
         {/*div dyal icone*/}
-        <div className="flex items-center border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-teal-400 transition-colors">
+        <div className="flex items-center border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-cyan-400 transition-colors">
 
           {/* Icône dyal mail */}
-          <svg viewBox="0 0 24 24" className="h-5 w-5 text-teal-400 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8">
+          <svg viewBox="0 0 24 24" className="h-5 w-5 text-cyan-400 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8">
             <rect x="2" y="4" width="20" height="16" rx="2" />
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
           </svg>
@@ -89,10 +89,10 @@ function Formulaire() {
         </label>
 
         {/*div dyal icone */}
-        <div className="flex items-start border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-teal-400 transition-colors">
+        <div className="flex items-start border border-slate-200 rounded-xl px-4 py-3 gap-3 focus-within:border-cyan-400 transition-colors">
 
           {/* Icône dyal message */}
-          <svg viewBox="0 0 24 24" className="h-5 w-5 text-teal-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="1.8">
+          <svg viewBox="0 0 24 24" className="h-5 w-5 text-cyan-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="1.8">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
           </svg>
 
@@ -109,7 +109,7 @@ function Formulaire() {
 
       {/*div dyal bouton Send Message*/}
       <div className="flex justify-center">
-        <button className="flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white text-sm font-semibold px-8 py-3 rounded-xl transition-colors"  
+        <button className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white text-sm font-semibold px-8 py-3 rounded-xl transition-colors"  
                 onClick={handleEnvoyer}> {/*had onclick une fois user aycliki ela botona lfonction handleEnvoyer ghadi t executa */}
 
           {/* Icône sarokh dyal botona*/}
