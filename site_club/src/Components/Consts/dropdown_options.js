@@ -1,0 +1,1 @@
+export const options =  ['Math', 'phizi9' , 'biologie']
