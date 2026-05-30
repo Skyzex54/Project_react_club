@@ -11,7 +11,7 @@ function MemberCard({name,role,description,image}){
      
       return (
         // chkel dyal card
-        <div className="w-[260px] bg-green-900 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
+        <div className="w-[260px] bg-white border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
      
           {/* chkel dyal tswira */}
           <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-slate-100 overflow-hidden border-4 border-white shadow">
@@ -20,7 +20,7 @@ function MemberCard({name,role,description,image}){
               <img src={image} alt={name} className="h-full w-full object-cover" />
             ) : (
               // la makantch ayakhd 2 horof lwlin function li lfo9
-              <div className="h-full w-full flex items-center justify-center bg-blue-500">
+              <div className="h-full w-full flex items-center justify-center bg-cyan-100">
                 <span className="text-xl font-bold text-slate-500">{getInitials(name)}</span>
               </div>
             )}
