@@ -18,7 +18,7 @@ function Members() {
 
   return (
     <>
-      <div className="min-h-screen bg-red-500 py-16 px-4"> {/*div dyal page kamla*/}
+      <div className="min-h-screen bg-gray-50 py-16 px-4"> {/*div dyal page kamla*/}
  
  {/* Titre o description*/}
  <div className="text-center mb-12">
