@@ -1,4 +1,4 @@
-import Story from '../assets/dar2.jpg'
+import Story from '../assets/Halland.png'
 function About() {
   return (<div>
     {/*les nombres du club*/}
