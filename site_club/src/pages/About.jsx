@@ -2,7 +2,7 @@ import Story from '../assets/Halland.png'
 function About() {
   return (<div>
     {/*les nombres du club*/}
-    <div className="flex flex-row ">
+    <div className="grid grid-cols-4">
     <div className="  border border-gray-400 basis-sm">
       <div>
       <svg className="w-8 h-8 text-cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ function About() {
     </div>
     {/*les objectifs du club*/}
     <section>
-    <div className="bg-gray-200 flex gap-16 p-8 justify-between">
+    <div className="bg-gray-200 grid grid-cols-2 justify-between">
     <div className="text-left text-cyan-700 text-3xl font-sans font-bold flex-co">
       <div>What Drives Us</div>
       <div className="font-light text-gray-800 text-xl font-sans">
@@ -60,7 +60,7 @@ function About() {
       </div>
       </div>
     <div><div className='font-bold text-cyan-700 text-3xl font-sans'>
-      <svg className="w-8 h-8 cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 24 24">
+      <svg className="w-8 h-8 text-cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 24 24">
       <path fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z" clip-rule="evenodd"/>
       </svg>
       Community</div>
@@ -82,11 +82,11 @@ function About() {
     {/*motivations pour joindre le club*/}
     <section>
       <div>
-        <p className="text-emerald-700 text-center font-bold text-2xl font-sans" >why joining our club</p>
+        <p className="text-cyan-700 text-center font-bold text-2xl font-sans" >why joining our club</p>
       </div>
       </section>
       <section>
-      <div className=" grid grid-cols-3 rounded-xs border-gray-400 border-collapse">
+      <div className=" grid grid-rows-2 grid-cols-3 rounded-xs border-gray-400 border-collapse">
         <div className="  border border-gray-400 basis-sm">
   <svg className="w-12 h-12 text-cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
@@ -135,19 +135,18 @@ function About() {
           </div>
       </div>
       </section>
-      <section className=''>
+      
       {/*petit resume de les origines du club*/}
-      <div className='bg-gray-100 flex items-center'>
+      <div className='bg-gray-100 grid-cols-2 items-center'>
       <div className='block'>
-        <h3 className='text-green-500 font-bold font-sans text-3xl'>Our Story</h3>
+        <h3 className='text-cyan-800 font-bold font-sans text-3xl'>Our Story</h3>
       <p className='text-left block m-5'>Founded in 2020, AI Dev Community began as a small group of ambitious students gathering for weekly study sessions.
       <br/> Driven by a shared passion for artificial intelligence and machine learning, those early meetings quickly evolved. 
       <br/>Today, we are a thriving community of hundreds of members, proudly standing as one of the leading tech hubs in the region.</p>
-      <button className='text-green-500 translate-1 hover:text-green-700'>Learn more about us</button>
+      <button className='text-cyan-500 translate-1 hover:text-cyan-700'>Learn more about us</button>
       </div>
       <div><img src={Story} alt="story" className='w-105 h-90 rounded-xl'/></div>
       </div>
-      </section>
       </div>
 )
 }
