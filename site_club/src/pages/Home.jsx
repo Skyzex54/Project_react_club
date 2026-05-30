@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
     {/* PHOTO */}
-    <div className='relative w-full h-[80vh] overflow-hidden  '>
+    <div className='relative w-full h-[80vh] overflow-hidden '>
       <img src= {Home_Image} alt='AI DEV PHOTO' className="w-full h-full object-cover" ></img>
       <div className="absolute inset-0 bg-cyan-600/30">
       </div>
