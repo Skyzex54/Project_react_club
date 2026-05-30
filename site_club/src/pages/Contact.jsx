@@ -1,11 +1,11 @@
 import Formulaire from "../Components/formulaire_contact";
-// La page Contact complète
+
 function Contact() {
   return (
-    // Fond blanc/gris clair comme dans la photo
-    <div className="min-h-screen bg-slate-50 py-16 px-4">
+    
+    <div className="min-h-screen bg-gradient-to-br from-cyan-600 via-blue-500 to-sky-900 py-16 px-4">
  
-      {/* Titre et sous-titre en haut au centre */}
+      {/* titre o lteht */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-slate-800 mb-3">Contact Us</h1>
         <p className="text-slate-500 text-sm leading-relaxed">
@@ -14,7 +14,7 @@ function Contact() {
         </p>
       </div>
  
-      {/* Le formulaire — centré au milieu de la page */}
+      {/* formulaire */}
       <Formulaire />
  
     </div>
