@@ -18,7 +18,7 @@ function Members() {
 
   return (
     <>
-      <div className="min-h-screen bg-red-500 py-16 px-4"> {/*div dyal page kamla*/}
+      <div className="min-h-screen bg-gray-50 py-16 px-4"> {/*div dyal page kamla*/}
  
  {/* Titre o description*/}
  <div className="text-center mb-12">
@@ -42,11 +42,11 @@ function Members() {
    ))}
 
    {/* card lkhra*/}
-   <div className="w-[260px] bg-cyan-50 border border-cyan-100 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
+   <div className="w-65 bg-cyan-590 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-100">
 
      {/* Icône dyal profil*/}
      <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-cyan-100 flex items-center justify-center ">
-       <svg viewBox="0 0 24 24" className="h-10 w-10 text-teal-400" fill="none" stroke="currentColor" strokeWidth="1.5">
+       <svg viewBox="0 0 24 24" className="h-10 w-10 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="1.5">
          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
          <circle cx="12" cy="7" r="4" />
        </svg>
@@ -56,14 +56,14 @@ function Members() {
      <h3 className="text-lg font-bold text-slate-800 mb-3">Join Our Community</h3>
 
      {/*description*/}
-     <p className="text-xs text-gray-400 leading-relaxed mb-6">
+     <p className="bg-linear-to-br from-gray-400 to-black bg-clip-text text-transparent text-xs mb-6 leading-relaxed font-medium">
        Be part of something bigger. Create, learn, and grow with us.
      </p>
 
      {/* Bouton dyal register f chkel lien */}
      <Link
        to="/Register"
-       className="inline-block bg-teal-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-teal-600 transition-colors w-full"
+       className="inline-block bg-cyan-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-teal-600 transition-colors w-full"
      >
        Register Now
      </Link>
