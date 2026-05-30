@@ -11,17 +11,17 @@ const Navbar = ({navbarr}) => {
           <h3 key={index}>
         <Link
           to={item.path}
-          className=" inline-flex py-1 px-3 text-black transition  duration-200 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-emerald-300 hover:bg-clip-text hover:text-transparent "
+          className=" inline-flex py-1 px-3 text-black transition  duration-200 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-cyan-300 hover:bg-clip-text hover:text-transparent "
         >
         {item.title}
           </Link>
           </h3>
         ))}
       </div>
-       <Link to="/Login" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center px-1.5 py-0.5 mr-1 shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-emerald-300 hover:bg-clip-text hover:text-transparent'>
+       <Link to="/Login" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center px-1.5 py-0.5 mr-1 shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-cyan-300 hover:bg-clip-text hover:text-transparent'>
         Login
       </Link>
-      <Link to="/Register" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center leading-none shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-emerald-300 hover:bg-clip-text hover:text-transparent'>
+      <Link to="/Register" className='inline-flex w-17.75 h-9 transition duration-200 items-center justify-center leading-none shrink-0 hover:-translate-y-1 hover:scale-110 hover:bg-linear-to-r from-gray-400 to-cyan-300 hover:bg-clip-text hover:text-transparent'>
         Register
       </Link>
     </div>

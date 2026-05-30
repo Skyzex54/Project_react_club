@@ -22,18 +22,18 @@ function App() {
         <main className="flex-1">
           <Routes>
             
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/members" element={<Members />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/Login" element={<Login />} />
-            <Route path="/Register" element={<Register />} />
+            <Route path="/" element={<><Home /> <Footer /></>} />
+            <Route path="/about" element={<><About /> <Footer /></>} />
+            <Route path="/members" element={<><Members /><Footer /></>} />
+            <Route path="/contact" element={<><Contact /> <Footer /></>} />
+            <Route path="/Login" element={<><Login /> <Footer /></>} />
+            <Route path="/Register" element={<><Register /></>} />
           </Routes>
         </main>
 
        
       </Router>
-       <Footer />
+      
     </div>
     </>
   )
