@@ -1,9 +1,32 @@
 import React from "react";
+import { useState } from "react";
 
 function Formulaire() {
-  return (
+
+    //fin aystokaw les info, l function li atbdl lvariable, awl valeur atakhdha lvariable hya walo " "
+    const [name, setNom] = useState("");
+    const [email, setEmail] = useState("");
+    const [msg, setMessage] = useState("");
+    const [send, setEnvoye] = useState(false); //ghatafficher l msg bli lm3lmat wslo
+
+    //function atkhwi lina les donnee mni user aywrk ela bouton
+    function handleEnvoyer() {
+        setEnvoye(true); //ghatafficha message
+        setNom(""); // name atwli khawya
+        setEmail("");
+        setMessage("");
+      }
+
+    return (
     // moreba3 lkbiiirr li haz kolchi 
     <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl shadow-cyan-500/20 px-10 py-8 w-full max-w-2xl mx-auto">
+
+        {/*message li ayban ila l user wrk ela send hit setEnvoye khdat value true */}
+        {send && (
+            <div className="mb-6 bg-teal-50 border border-teal-200 text-teal-700 text-sm rounded-xl px-4 py-3 text-center">
+                ✅ Message envoyé avec succès ! Merci de nous avoir contactés.
+            </div>
+        )}
 
       {/*div dyal smya o morba3 dyalha*/}
       <div className="mb-6">
@@ -26,6 +49,8 @@ function Formulaire() {
           <input
             type="text"
             placeholder="Enter your full name"
+            value={name}
+            onChange={(e) => setNom(e.target.value)} //had function atakhd ay character tktb f input matalan "A" o ghadi theto f setName atwli setName ="A" o hakada tatsali name
             className="w-full text-sm text-slate-700 placeholder-slate-400 outline-none bg-transparent"
           />
         </div>
@@ -49,6 +74,8 @@ function Formulaire() {
           <input
             type="email"
             placeholder="Enter your email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-full text-sm text-slate-700 placeholder-slate-400 outline-none bg-transparent"
           />
         </div>
@@ -73,6 +100,8 @@ function Formulaire() {
           <textarea
             placeholder="Write your message here..."
             rows={5}
+            value={msg}
+            onChange={(e) => setMessage(e.target.value)}
             className="w-full text-sm text-slate-700 placeholder-slate-400 outline-none bg-transparent resize-none"
           />
         </div>
@@ -80,7 +109,8 @@ function Formulaire() {
 
       {/*div dyal bouton Send Message*/}
       <div className="flex justify-center">
-        <button className="flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white text-sm font-semibold px-8 py-3 rounded-xl transition-colors">
+        <button className="flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white text-sm font-semibold px-8 py-3 rounded-xl transition-colors"  
+                onClick={handleEnvoyer}> {/*had onclick une fois user aycliki ela botona lfonction handleEnvoyer ghadi t executa */}
 
           {/* Icône sarokh dyal botona*/}
           <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
