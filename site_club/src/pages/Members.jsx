@@ -33,7 +33,7 @@ function Members() {
  
  {/* Titre o description*/}
  <div className="text-center mb-12">
-   <h1 className="text-5xl font-bold text-slate-800 mb-3">Our Members</h1>
+   <h1 className="text-5xl font-bold txt-slate-800 mb-3">Our Members</h1>
    <p className="text-slate-500 text-md max-w-lg mx-auto leading-relaxed">
    We are not just a group of developers. We are the architects of the next digital era. Meet the minds behind AI Dev Community.
    </p>
@@ -55,7 +55,7 @@ function Members() {
    ))}
 
    {/* card lkhra*/}
-   <div className="w-65 bg-cyan-590 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-100">
+   <div className="w-65 bg-cyan-50 border border-slate-200 rounded-2xl px-6 pt-8 pb-6 text-center shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300 hover:shadow-cyan-200">
 
      {/* Icône dyal profil*/}
      <div className="mx-auto mb-4 h-24 w-24 rounded-full bg-cyan-100 flex items-center justify-center ">
