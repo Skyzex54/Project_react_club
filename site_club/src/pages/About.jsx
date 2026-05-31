@@ -1,4 +1,4 @@
-import fati from '../assets/ tsawer_members/pr-aidev.jpg';
+import fati from '../assets/tsawer_members/pr-aidev.jpg';
 
 function About() {
   return (<div>
