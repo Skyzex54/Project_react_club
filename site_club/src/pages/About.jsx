@@ -1,4 +1,5 @@
-import Story from '../assets/Halland.png'
+import fati from '../assets/ tsawer_members/pr-aidev.jpg';
+
 function About() {
   return (<div>
     {/*les nombres du club*/}
@@ -40,11 +41,11 @@ function About() {
     {/*les objectifs du club*/}
     <section>
     <div className="bg-gray-200 grid grid-cols-2 justify-between">
-    <div className="text-left text-cyan-700 text-3xl font-sans font-bold flex-co">
+    <div className="text-left text-cyan-700 text-3xl font-sans font-bold flex-col">
       <div>What Drives Us</div>
       <div className="font-light text-gray-800 text-xl font-sans">
         <br/>The principles that guide everything we do in our community
-        <div block><br/>Our mission is to empower developers with AI knowledge and <br/>foster innovation in technology</div>
+        <div className="block"><br/>Our mission is to empower developers with AI knowledge and <br/>foster innovation in technology</div>
         </div>
         </div>
     <div className='block translate-x-2'>
@@ -127,7 +128,7 @@ function About() {
           <br/>Learn from experienced professionals in the industry</div>
         </div>
         <div className="  border border-gray-400 basis-sm">
-          <svg class="w-12 h-12 text-cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+          <svg className ="w-12 h-12 text-cyan-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fill-rule="evenodd" d="M3 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H3Zm4.293 5.707a1 1 0 0 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L9.586 12 7.293 9.707ZM13 14a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2h-3Z" clip-rule="evenodd"/>
 </svg>
           <p className="font-sans font-bold">Cutting-edge Tech</p><div>
@@ -137,7 +138,7 @@ function About() {
       </section>
       
       {/*petit resume de les origines du club*/}
-      <div className='bg-gray-100 grid-cols-2 items-center'>
+      <div className='bg-gray-100 grid grid-cols-2 items-center'>
       <div className='block'>
         <h3 className='text-cyan-800 font-bold font-sans text-3xl'>Our Story</h3>
       <p className='text-left block m-5'>Founded in 2020, AI Dev Community began as a small group of ambitious students gathering for weekly study sessions.
@@ -145,7 +146,7 @@ function About() {
       <br/>Today, we are a thriving community of hundreds of members, proudly standing as one of the leading tech hubs in the region.</p>
       <button className='text-cyan-500 translate-1 hover:text-cyan-700'>Learn more about us</button>
       </div>
-      <div><img src={Story} alt="story" className='w-105 h-90 rounded-xl'/></div>
+      <div><img src={fati} alt="story" className='w-105 h-90 rounded-xl'/></div>
       </div>
       </div>
 )

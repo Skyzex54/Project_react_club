@@ -1,11 +1,16 @@
 import React from 'react'
 import Home_Image from '../assets/home_photo.jpeg'
 import Event_card from '../Components/Event_card'
-import gum1 from '../assets/gum1.jpg'
-import gum2 from '../assets/gum3.jpg'
-import gum3 from '../assets/dar2.jpg'
-import halland from '../assets/Halland.png'
-import jew from '../assets/Jews.png'
+import fati from "../assets/ tsawer_members/pr-aidev.jpg";
+import younes from "../assets/ tsawer_members/vicepresident.jpg";
+import med from "../assets/ tsawer_members/headofdesign.jpg";
+import taoufik from "../assets/ tsawer_members/speaker.jpg";
+import wiam from "../assets/ tsawer_members/secretaire.jpg";
+import majda from "../assets/ tsawer_members/headofmediaunit.jpg";
+import hiba from "../assets/ tsawer_members/headofmediaunit2.png";
+import sara from "../assets/ tsawer_members/eventmanager.jpg";
+import fati2 from "../assets/ tsawer_members/RH.jpg";
+import meryem from "../assets/ tsawer_members/treasurer.jpg";
 import { Link } from 'react-router-dom'
 function Home() {
   return (
@@ -25,13 +30,13 @@ function Home() {
         <p className='text-center font-bold'>Last Events</p>
       </div>
         <div className='col-start-1 row-start-2 flex justify-center'>
-          <Event_card src={jew} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
+          <Event_card src={younes} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
         </div>
         <div className='col-start-2 row-start-2 flex justify-center '>
-        <Event_card src={gum2} alt={"Gumball ajmi tani"} text={"Gumball_2"} className='h-full' />
+        <Event_card src={fati} alt={"Gumball ajmi tani"} text={"Gumball_2"} className='h-full' />
         </div>
         <div className='col-start-3 row-start-2 flex justify-center'>
-            <Event_card src={halland} alt={"darwin ajmi "} text={"Gumball_3"}className='h-full' /> 
+            <Event_card src={taoufik} alt={"darwin ajmi "} text={"Gumball_3"}className='h-full' /> 
         </div>
     </div>
     {/* OBJECTIVES */}
