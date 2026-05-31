@@ -1,1 +1,1 @@
-export const options =  ['Math', 'phizi9' , 'biologie']
+export const options =  ['Mi', 'Ma' , 'pc','bcg','chimie']
