@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MemberCard from "../Components/MemberCard";
-import fati from "../assets/ tsawer_members/pr-aidev.jpg";
-import younes from "../assets/ tsawer_members/vicepresident.jpg";
-import med from "../assets/ tsawer_members/headofdesign.jpg";
-import taoufik from "../assets/ tsawer_members/speaker.jpg";
-import wiam from "../assets/ tsawer_members/secretaire.jpg";
-import majda from "../assets/ tsawer_members/headofmediaunit.jpg";
-import hiba from "../assets/ tsawer_members/headofmediaunit2.png";
-import sara from "../assets/ tsawer_members/eventmanager.jpg";
-import fati2 from "../assets/ tsawer_members/RH.jpg";
-import meryem from "../assets/ tsawer_members/treasurer.jpg";
+import fati from "../assets/tsawer_members/pr-aidev.jpg";
+import younes from "../assets/tsawer_members/vicepresident.jpg";
+import med from "../assets/tsawer_members/headofdesign.jpg";
+import taoufik from "../assets/tsawer_members/speaker.jpg";
+import wiam from "../assets/tsawer_members/secretaire.jpg";
+import majda from "../assets/tsawer_members/headofmediaunit.jpg";
+import hiba from "../assets/tsawer_members/headofmediaunit2.png";
+import sara from "../assets/tsawer_members/eventmanager.jpg";
+import fati2 from "../assets/tsawer_members/RH.jpg";
+import meryem from "../assets/tsawer_members/treasurer.jpg";
 
 
 function Members() {
