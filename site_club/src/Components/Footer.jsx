@@ -46,7 +46,7 @@ const Footer = () => {
         <div className='w-full h-px bg-linear-to-r from-cyan-200 to-cyan-950 shadow-md'></div>
       </div>
       <div className='row-start-3 flex'>
-        <p className='font-bold text-cyan-200/80 text-left ml-30 mr-auto text-xs'>© 2026 AI Dev Community. Développé par 3ocha9 lghzwani.</p>
+        <p className='font-bold text-cyan-200/80 text-left ml-30 mr-auto text-xs'>© 2026 AI Dev Community</p>
         <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer'>Privacy Policy</p>
         <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer mr-10'>Terms of Service</p>
         <div className='flex gap-1  '>
