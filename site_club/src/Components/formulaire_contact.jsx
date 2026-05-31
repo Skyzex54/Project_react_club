@@ -19,7 +19,7 @@ function Formulaire() {
 
     return (
     // moreba3 lkbiiirr li haz kolchi 
-    <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl shadow-cyan-500/20 px-10 py-8 w-full max-w-2xl mx-auto">
+    <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl shadow-cyan-400/30 px-10 py-8 w-full max-w-2xl mx-auto">
 
         {/*message li ayban ila l user wrk ela send hit setEnvoye khdat value true */}
         {send && (
