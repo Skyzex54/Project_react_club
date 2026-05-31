@@ -41,10 +41,19 @@ function Register() {
             </div>
 
             <div className="mt-8 mr-17 flex justify-center">
-              <div className="inline-flex gap-6 rounded-full border border-white/20 bg-white/5 px-5 py-2 backdrop-blur-2xl shadow-md ring-1 ring-white/10">
-                <p>Members</p>
-                <p>Events</p>
-                <p>Projects</p>
+              <div className="inline-flex items-center gap-6 rounded-full border border-white/20 bg-white/5 px-5 py-2 backdrop-blur-2xl shadow-md ring-1 ring-white/10">
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-center bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text font-bold text-2xl">500+</p>
+                  <p className="bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text ">Members</p>
+                </div>
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-center bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text font-bold text-2xl">100+</p>
+                  <p className="bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text ">Events</p>
+                </div>
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-center bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text font-bold text-2xl">50+</p>
+                  <p className="bg-linear-to-r from-white to-gray-300 text-transparent bg-clip-text">Projects</p>
+                </div>
               </div>
             </div>
           </div>
