@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "site_club",
   "private": true,
   "version": "0.0.0",
@@ -27,5 +28,9 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
+=======
+  "dependencies": {
+    "lucide-react": "^1.17.0"
+>>>>>>> c3b1e93db5eb43bd47f8c660555083abd2e6d9da
   }
 }
