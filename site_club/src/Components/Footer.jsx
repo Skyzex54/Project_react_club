@@ -54,7 +54,6 @@ const Footer = () => {
           </svg>
           <p className='font-bold text-cyan-200/80   text-xs mr-50 cursor-pointer'>contactaidevcommunity@gmail.com</p>
         </div>
-       <p>wissal tobis</p>
       </div>
       
       
