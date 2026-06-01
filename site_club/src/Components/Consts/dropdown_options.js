@@ -1,0 +1,1 @@
+export const options =  ['Mi', 'Ma' , 'pc','bcg','chimie']
