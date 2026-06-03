@@ -25,7 +25,7 @@ const Forumulaire_Register = () => {
             </div>
         )}
       {error &&(<div className="'mb-6 bg-red-50 border border-red-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center">
-        votre mot de passe ou votre email n'est pas vrai
+        your password or your email is not confirmed
       </div>)}
        <label className="block text-sm font-semibold text-slate-700 mb-2">
          Email
