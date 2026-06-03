@@ -1,16 +1,9 @@
 import React from 'react'
 import Home_Image from '../assets/home_photo.jpeg'
 import Event_card from '../Components/Event_card'
-import fati from "../assets/tsawer_members/pr-aidev.jpg";
-import younes from "../assets/tsawer_members/vicepresident.jpg";
-import med from "../assets/tsawer_members/headofdesign.jpg";
-import taoufik from "../assets/tsawer_members/speaker.jpg";
-import wiam from "../assets/tsawer_members/secretaire.jpg";
-import majda from "../assets/tsawer_members/headofmediaunit.jpg";
-import hiba from "../assets/tsawer_members/headofmediaunit2.png";
-import sara from "../assets/tsawer_members/eventmanager.jpg";
-import fati2 from "../assets/tsawer_members/RH.jpg";
-import meryem from "../assets/tsawer_members/treasurer.jpg";
+import event_1 from '../assets/Events/event_1.png'
+import event_2 from '../assets/Events/Event_2.png'
+import event_3 from '../assets/Events/event_3.png'
 import { Link } from 'react-router-dom'
 function Home() {
   return (
@@ -30,13 +23,13 @@ function Home() {
         <p className='text-center font-bold'>Last Events</p>
       </div>
         <div className='col-start-1 row-start-2 flex justify-center'>
-          <Event_card src={younes} alt={"Gumball ajmi"} text={"Gumball"} className='h-full' />
+          <Event_card src={event_1} alt={"AI & Ses domaines d’application"} text={"AI & Ses domaines d’application"} className='h-full' />
         </div>
         <div className='col-start-2 row-start-2 flex justify-center '>
-        <Event_card src={fati} alt={"Gumball ajmi tani"} text={"Gumball_2"} className='h-full' />
+        <Event_card src={event_2} alt={"Digital Women"} text={"Digital Women"} className='h-full' />
         </div>
         <div className='col-start-3 row-start-2 flex justify-center'>
-            <Event_card src={taoufik} alt={"darwin ajmi "} text={"Gumball_3"}className='h-full' /> 
+            <Event_card src={event_3} alt={"Artificial Intelligence & Strategy "} text={"Atelier “Artificial Intelligence & Strategy” – Caravan Wisdom 2025"}className='h-full' /> 
         </div>
     </div>
     {/* OBJECTIVES */}
