@@ -5,8 +5,12 @@ const Forumulaire_Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [send, setEnvoye] = useState(false);
-
+    const [error,setError] = useState(false)
     const Handler = () => {
+      if (email ==="" || password ==="")
+      {
+        return setError(true)
+      }
         setEnvoye(true);
         setEmail("");
         setPassword("");
@@ -19,6 +23,9 @@ const Forumulaire_Register = () => {
                 DONE
             </div>
         )}
+      {error &&(<div className="'mb-6 bg-red-50 border border-red-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center">
+        votre mot de passe ou votre email n'est pas vrai
+      </div>)}
        <label className="block text-sm font-semibold text-slate-700 mb-2">
          Email
         </label>
