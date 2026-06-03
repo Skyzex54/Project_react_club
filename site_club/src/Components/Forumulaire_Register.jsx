@@ -7,7 +7,11 @@ const Forumulaire_Register = () => {
     const [send, setEnvoye] = useState(false);
     const [Selectedoption,setSelectedOption] = useState([])
     const [Selected,setSelected] = useState(false)
+    const [senderror,setSenderror] = useState(false) 
     const Handler = () => {
+      if (name === "" || email === "" || password === "" || Selectedoption === [] ) {
+        return setSenderror(true)
+      }
         setEnvoye(true);
         setNom("");
         setEmail("");
@@ -23,6 +27,12 @@ const Forumulaire_Register = () => {
                 DONE
             </div>
         )}
+
+      {senderror && (
+        <div className='mb-6 bg-red-50 border border-red-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center'>
+            3amr awldi 3mr myt3mr
+        </div>
+      )}
       <label className="block text-sm font-semibold text-slate-700 mb-2">
           Full Name
         </label>
