@@ -14,7 +14,7 @@ const Forumulaire_Register = () => {
         setTimeout(() => {
           setSenderror(false)
         },3000)
-        return 
+        return
       }
         setEnvoye(true);
         setTimeout(() => {
@@ -30,13 +30,13 @@ const Forumulaire_Register = () => {
         
     <div className=' bg-white h-auto p-10 border border-gray-600/20 shadow-md rounded-2xl m-4 w-full max-w-2xl mx-auto'>
       {send && (
-            <div className="mb-6 bg-teal-50 border border-teal-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center">
+            <div className="mb-6 bg-teal-50 border border-teal-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center">
                 DONE
             </div>
         )}
 
       {senderror && (
-        <div className='mb-6 bg-red-50 border border-red-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center'>
+        <div className='mb-6 bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center'>
             3amr awldi 3mr myt3mr
         </div>
       )}
