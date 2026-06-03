@@ -37,7 +37,7 @@ const Forumulaire_Register = () => {
 
       {senderror && (
         <div className='mb-6 bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center'>
-            3amr awldi 3mr myt3mr
+            remplir tous les chemins!
         </div>
       )}
       <label className="block text-sm font-semibold text-slate-700 mb-2">
