@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Costume_list from './Custom_listbox'
+import { Link } from 'react-router-dom';
 const Forumulaire_Register = () => {
     const [name, setNom] = useState("");
     const [email, setEmail] = useState("");
@@ -101,7 +102,7 @@ const Forumulaire_Register = () => {
         <div className=' flex justify-center m-4  ' >
           <button onClick={Handler} className='bg-linear-to-r to-cyan-400 from-cyan-500 text-white rounded p-2 hover:bg-gray-700 cursor-pointer w-md' >Register</button>
         </div>
-        <div className='flex justify-center'><p>Already have an account? <span className='text-cyan-700 cursor-pointer'>Login</span></p></div>
+        <div className='flex justify-center'><p>Already have an account?</p> <Link to="/Login"><span className='text-cyan-700 cursor-pointer'>Login</span></Link></div>
     </div>
   )
 }
