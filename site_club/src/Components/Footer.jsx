@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <>
-    <div className='relative bg-linear-to-r from-cyan-950 to-cyan-950 h-30 shadow-md grid grid-row-[auto_0.4hv_auto] '>
+    <div className='relative bg-linear-to-r from-cyan-950 to-cyan-950 md:h-30 shadow-md grid md:grid-row-[auto_0.4hv_auto] md:grid-col-[auto_0.4hv_auto] '>
       {/* <p className='text-cyan-200 row-start-2 text-center font-bold'></p> */}
 
-    <div className='flex flex-col justify-end ml-30'>
-      <div className='flex gap-2'>
+    <div className='flex flex-col justify-end md:ml-30 ml-0'>
+      <div className='flex md:gap-2 flex-row gap-1'>
            <a 
             href = "https://www.linkedin.com/company/ai-dev-community/" 
             target="_blank" 
@@ -40,19 +40,19 @@ const Footer = () => {
    
     </div>
 
-      <div className='row-start-2 col-span-full flex items-center px-25'>
-        <div className='w-full h-px bg-linear-to-r from-cyan-200 to-cyan-950 shadow-md'></div>
+      <div className='row-start-2 col-span-full flex items-center md:px-25'>
+        <div className='w-0 h-0 md:w-full md:h-px bg-linear-to-r from-cyan-200 to-cyan-950 shadow-md'></div>
       </div>
-      <div className='row-start-3 flex'>
-        <p className='font-bold text-cyan-200/80 text-left ml-30 mr-auto text-xs  '>© 2026 AI Dev Community</p>
-        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer hover:text-cyan-800 transition-colors'>Privacy Policy</p>
-        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer mr-10 hover:text-cyan-800 transition-colors'>Terms of Service</p>
-        <div className='flex gap-1  '>
-          <svg className="w-5 h-5 text-cyan-200/80" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+      <div className='row-start-3 flex flex-row gap-4 md:gap-0'>
+        <p className='font-bold text-cyan-200/80 text-left md:ml-30 md:mr-auto text-xs  '>© 2026 AI Dev Community</p>
+        <p className='font-bold text-cyan-200/80  md:ml-10 text-xs cursor-pointer hover:text-cyan-800 transition-colors'>Privacy Policy</p>
+        <p className='font-bold text-cyan-200/80  md:ml-10 text-xs cursor-pointer md:mr-10 hover:text-cyan-800 transition-colors'>Terms of Service</p>
+        <div className='flex gap-1 flex-wrap '>
+          <svg className="md:w-5 md:h-5 w-3 h-3 text-cyan-200/80" fill="none" stroke="currentColor" strokeWidth="1.8"  viewBox="0 0 24 24">
             <rect x="2" y="4" width="20" height="16" rx="2" />
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
           </svg>
-          <p className='font-bold text-cyan-200/80   text-xs mr-50 cursor-pointer hover:text-cyan-800 transition-colors'>contactaidevcommunity@gmail.com</p>
+          <p className='font-bold text-cyan-200/80 text-xs md:mr-50 cursor-pointer hover:text-cyan-800 transition-colors'>contactaidevcommunity@gmail.com</p>
         </div>
       </div>
       
