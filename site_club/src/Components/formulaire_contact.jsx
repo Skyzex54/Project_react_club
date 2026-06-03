@@ -7,25 +7,38 @@ function Formulaire() {
     const [name, setNom] = useState("");
     const [email, setEmail] = useState("");
     const [msg, setMessage] = useState("");
-    const [send, setEnvoye] = useState(false); //ghatafficher l msg bli lm3lmat wslo
+    const [send, setEnvoye] = useState("");
 
-    //function atkhwi lina les donnee mni user aywrk ela bouton
+    //function kat executa une fois mni user aywrk ela bouton
     function handleEnvoyer() {
-        setEnvoye(true); //ghatafficha message
-        setNom(""); // name atwli khawya
-        setEmail("");
-        setMessage("");
+      // ila kan wahed mn les champs khawi setEnvoyer atakhd valeur error
+      if (name === "" || email === "" || msg === "") {
+          setEnvoye("error");
+          return;
       }
+      // ila kan kolchi 3amr katkhwi les champs
+      setEnvoye("success");
+      setNom("");
+      setEmail("");
+      setMessage("");
+  }
 
     return (
     // moreba3 lkbiiirr li haz kolchi 
     <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl shadow-cyan-400/30 px-10 py-8 w-full max-w-2xl mx-auto">
 
-        {/*message li ayban ila l user wrk ela send hit setEnvoye khdat value true */}
-        {send && (
-            <div className="mb-6 bg-teal-50 border border-teal-200 text-teal-700 text-sm rounded-xl px-4 py-3 text-center">
-                ✅ Message envoyé avec succès ! Merci de nous avoir contactés.
-            </div>
+        {/*message li ayban ila l user wrk ela send hit setEnvoyer khdat error*/}
+        {send === "error" && (
+          <div className="mb-6 bg-red-50 border border-red-200 text-red-500 text-sm rounded-xl px-4 py-3 text-center">
+            ⚠️ Please fill in all fields
+          </div>
+        )}
+
+        {/*message li ayban ila l user wrk ela send hit setEnvoyer khdat success*/}
+        {send === "success" && (
+          <div className="mb-6 bg-teal-50 border border-teal-200 text-teal-700 text-sm rounded-xl px-4 py-3 text-center">
+            ✅ Done !
+          </div>
         )}
 
       {/*div dyal smya o morba3 dyalha*/}

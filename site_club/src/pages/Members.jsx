@@ -76,7 +76,7 @@ function Members() {
      {/* Bouton dyal register f chkel lien */}
      <Link
        to="/Register"
-       className="inline-block bg-cyan-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-teal-600 transition-colors w-full"
+       className="inline-block bg-cyan-500 text-white text-sm font-semibold px-6 py-2 rounded-xl hover:bg-cyan-600 transition-colors w-full"
      >
        Register Now
      </Link>
