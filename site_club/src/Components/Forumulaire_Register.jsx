@@ -9,28 +9,44 @@ const Forumulaire_Register = () => {
     const [Selectedoption,setSelectedOption] = useState([])
     const [Selected,setSelected] = useState(false)
     const [senderror,setSenderror] = useState(false) 
+    const [alreadyregiset,setAlreadyRegister] = useState(false)
+    const [showAlreadyMessage, setShowAlreadyMessage] = useState(false)
     const Handler = () => {
-      if (name === "" || email === "" || password === "" || Selectedoption === [] ) {
+      if (name === "" || email === "" || password === "" || Selectedoption.length === 0) {
         setSenderror(true)
         setTimeout(() => {
           setSenderror(false)
-        },3000)
+        }, 3000)
         return
       }
-        setEnvoye(true);
+      if (alreadyregiset) {
+        setShowAlreadyMessage(true)
         setTimeout(() => {
-          setEnvoye(false)
-        },3000)
-        setNom("");
-        setEmail("");
-        setPassword("");
-        setSelectedOption([]);
-        setSelected(false);
+          setShowAlreadyMessage(false)
+        }, 3000)
+        return
+      }
+      setEnvoye(true)
+      setTimeout(() => {
+        setEnvoye(false)
+        setAlreadyRegister(true)
+      }, 3000)
+
+      setNom("")
+      setEmail("")
+      setPassword("")
+      setSelectedOption([])
+      setSelected(false)
     }
   return (
         
     <div className=' bg-white h-auto p-10 border border-gray-600/20 shadow-md rounded-2xl m-4 w-full max-w-2xl mx-auto'>
-      {send && (
+      {showAlreadyMessage && !send && (
+        <div className="mb-6 bg-teal-50 border border-blue-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center">
+          you already registerd
+        </div>
+      )}
+      {send && !alreadyregiset &&  (
             <div className="mb-6 bg-teal-50 border border-teal-200 text-cyan-700 text-sm rounded-xl px-4 py-3 text-center">
                 DONE
             </div>
