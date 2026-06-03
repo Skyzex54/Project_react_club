@@ -10,9 +10,16 @@ const Forumulaire_Register = () => {
     const [senderror,setSenderror] = useState(false) 
     const Handler = () => {
       if (name === "" || email === "" || password === "" || Selectedoption === [] ) {
-        return setSenderror(true)
+        setSenderror(true)
+        setTimeout(() => {
+          setSenderror(false)
+        },3000)
+        return 
       }
         setEnvoye(true);
+        setTimeout(() => {
+          setEnvoye(false)
+        },3000)
         setNom("");
         setEmail("");
         setPassword("");
