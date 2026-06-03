@@ -5,7 +5,8 @@ const Forumulaire_Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [send, setEnvoye] = useState(false);
-    const [error,setError] = useState(false)
+    const [error,setError] = useState(false);
+    const [Logined,setLogined] = useState(false);
     const Handler = () => {
       if (email ==="" || password ==="")
       {
