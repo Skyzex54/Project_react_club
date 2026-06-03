@@ -44,15 +44,15 @@ const Footer = () => {
         <div className='w-full h-px bg-linear-to-r from-cyan-200 to-cyan-950 shadow-md'></div>
       </div>
       <div className='row-start-3 flex'>
-        <p className='font-bold text-cyan-200/80 text-left ml-30 mr-auto text-xs'>© 2026 AI Dev Community</p>
-        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer'>Privacy Policy</p>
-        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer mr-10'>Terms of Service</p>
+        <p className='font-bold text-cyan-200/80 text-left ml-30 mr-auto text-xs  '>© 2026 AI Dev Community</p>
+        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer hover:text-cyan-800 transition-colors'>Privacy Policy</p>
+        <p className='font-bold text-cyan-200/80  ml-10 text-xs cursor-pointer mr-10 hover:text-cyan-800 transition-colors'>Terms of Service</p>
         <div className='flex gap-1  '>
           <svg className="w-5 h-5 text-cyan-200/80" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
             <rect x="2" y="4" width="20" height="16" rx="2" />
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
           </svg>
-          <p className='font-bold text-cyan-200/80   text-xs mr-50 cursor-pointer'>contactaidevcommunity@gmail.com</p>
+          <p className='font-bold text-cyan-200/80   text-xs mr-50 cursor-pointer hover:text-cyan-800 transition-colors'>contactaidevcommunity@gmail.com</p>
         </div>
       </div>
       
