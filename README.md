@@ -1,4 +1,4 @@
-**AI Dev Community Website ** is a collaborative frontend project developed for a student club focused on Artificial Intelligence.
+**AI Dev Community Website** is a collaborative frontend project developed for a student club focused on Artificial Intelligence.
 
 
 ### Key Features
